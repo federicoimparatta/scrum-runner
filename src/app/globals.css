@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 255 255 255;
+  --foreground: 23 23 23;
+  --accent: 37 99 235;
+  --accent-hover: 29 78 216;
+  --muted: 115 115 115;
+}
+
+.dark {
+  --background: 10 10 10;
+  --foreground: 229 229 229;
+  --accent: 96 165 250;
+  --accent-hover: 147 187 253;
+  --muted: 163 163 163;
+}
+
+body {
+  color: rgb(var(--foreground));
+  background: rgb(var(--background));
+  text-transform: lowercase;
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
