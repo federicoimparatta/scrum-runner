@@ -3,9 +3,9 @@ import type { Dictionary } from "./types";
 const es: Dictionary = {
   game: {
     title: "escapando del scrum master",
-    subtitle: "cuanto tiempo sobreviviras la daily?",
+    subtitle: "¿cuánto tiempo sobreviviras la daily?",
     context:
-      "lo hice como un chiste interno sobre cómo se sienten las dailys modernas — quince minutos esquivando invitaciones de calendario, sobreviviendo teatro de procesos e intentando que no te agarren sin actualizar jira. no es serio. pero tampoco está del todo equivocado.",
+      "lo hice como un chiste interno sobre cómo se sienten las dailys, quince minutos esquivando invitaciones de calendario, sobreviviendo teatro de procesos e intentando que no te agarren sin actualizar jira. no es serio, como la mayoría de los standups.",
     description:
       "Un juego donde escapas de un Scrum Master obsesivo. Salta obstaculos y no dejes que te atrape.",
     instructions: "espacio / toca para saltar",
