@@ -3,9 +3,9 @@ import type { Dictionary } from "./types";
 const en: Dictionary = {
   game: {
     title: "run from the scrum master",
-    subtitle: "how long can you survive the daily standup?",
+    subtitle: "how long will you survive the daily?",
     context:
-      "i built this as an internal joke about what modern standups feel like — fifteen minutes of dodging calendar invites, surviving process theater, and trying not to get caught without a jira update. it's not serious. but it's not entirely wrong either.",
+      "i made this as an internal joke about how dailys feel, fifteen minutes dodging calendar invites, surviving process theater, and trying not to get caught without a jira update. not serious, like most standups.",
     description:
       "A browser game where you run from an overzealous Scrum Master. Jump over obstacles and avoid getting caught.",
     instructions: "space / tap to jump",
